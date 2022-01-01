@@ -1,0 +1,87 @@
+/*Element Styles*/
+
+body
+{
+  background-color: hsla(135,75%,50%,0.5);
+  font-family: Arial Black;
+}
+
+h1
+{
+  text-align: center;
+}
+
+a
+{
+  text-decoration: none;
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
+
+a:hover
+{
+  color: hsl(0,100%,50%);
+}
+
+div
+{
+  background-color: gray;
+}
+
+/*Class Styles*/
+
+.number
+{
+  height: 64px;
+  width: 64px;
+  margin: 16px;
+  font-size: 40px;
+  text-align: center;
+  display: inline;
+}
+
+.operator
+{
+  height: 32px;
+  width: 32px;
+  margin: 48px 16px;
+  font-size: 32px;
+  text-align: center;
+  display: inline;
+}
+/*Id Styles*/
+
+#first
+{
+  margin: 16px 16px 16px 58px;
+}
+
+#last
+{
+  margin: 16px 58px 16px 16px;
+  font-size: 32px;
+  display: inline;
+  height: 54px;
+}
+
+#reload
+{
+  position: relative;
+  top: 5px;
+  left: 220px;
+}
+
+#reload:hover
+{
+  background-color: hsl(135,100%,50%);
+  font-weight: bold;
+}
+
+#body
+{
+  width: 500px;
+  height: 215px;
+  border: solid;
+  background-color: hsl(135,75%,50%);
+}

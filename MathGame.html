@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Math Quiz</title>
+    <meta charset="utf-8" />
+    <link href="./css/MG.css" type="text/css" rel="stylesheet" />
+    <script type="module" defer src="./js/MG.js"></script>
+  </head>
+
+  <body>
+    <div id="body">
+    <h1 id="title">
+      Math Quiz
+    </h1>
+    <div id="prob">
+      <p class="number" id="first">##</p>
+      <p class="operator" id="operator">+</p>
+      <p class="number" id="second">##</p>
+      <p class="operator" id="equal">=</p>
+      <input type="text" class="number" id="last" maxlength="3"/>
+    </div>
+    <a href="index.html">Do you want to leave?</a>
+    <input id="reload" type="button" value="Go Again"
+           onclick="window.location.href=window.location.href" />
+    </div>
+    <p id="instruct">
+    </p>    
+  </body>
+</html>
